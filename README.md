@@ -9,6 +9,11 @@ python ./label_image.py \
 --trained_model_path = /model_v7.h5 \
 --incept_model_path = /incept_model.h5 
 ```
+An example run in windows system with Anaconda : 
+``` 
+C:/ProgramData/Anaconda3/envs/tensorflow/python.exe "c:/Users/Panda/Downloads/Upload_Github/label_image.py" --images_path=C:/Users/Panda/Downloads/Test --trained_model_path=C:/Users/Panda/Downloads/Upload_Github/model_v7.h5 --incept_model_path=C:/Users/Panda/Downloads/Upload_Github/incept_model.h5
+ ```
+
 
 The trained model achieved *~88 %* accuracy with following parameters :- 
 - Epochs = 100
