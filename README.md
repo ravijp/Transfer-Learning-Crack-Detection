@@ -20,3 +20,6 @@ The trained model achieved *~88 %* accuracy with following parameters :-
 - Batch size = 32
 - Learning Rate = 1e-5 (RMSprop)
 
+Ref:-
+1. https://www.cse.ust.hk/~qyang/Docs/2009/tkde_transfer_learning.pdf
+2. https://towardsdatascience.com/a-comprehensive-hands-on-guide-to-transfer-learning-with-real-world-applications-in-deep-learning-212bf3b2f27a
