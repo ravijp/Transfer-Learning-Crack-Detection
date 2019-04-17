@@ -5,7 +5,7 @@ To predict on new image or folder of images, please provide path in --images_pat
 
 ```
 python ./label_image.py \
---images_path={Path of the Image file} \
+--images_path={Path of the Image file or Folder of images} \
 --trained_model_path = ./model_v7.h5 \
 --incept_model_path = ./incept_model.h5 
 ```
